@@ -20,8 +20,12 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails', "~> 2.6"
+  gem 'spork', '~> 0.9.0.rc'
+  gem 'webrat'
 end
 
 group :test do
   gem 'rspec'
+  gem 'spork', '~> 0.9.0.rc'
+  gem 'webrat'
 end
