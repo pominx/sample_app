@@ -22,7 +22,7 @@ group :development do
   gem 'rspec-rails', "~> 2.6"
   gem 'spork', '~> 0.9.0.rc'
   gem 'webrat'
-  # gem 'annotate-models'
+  gem 'annotate', ">=2.5.0"
 end
 
 group :test do
