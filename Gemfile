@@ -19,14 +19,19 @@ end
 gem 'jquery-rails'
 
 group :development do
-  gem 'rspec-rails', "~> 2.6"
+  gem 'rspec-rails'
   gem 'spork', '~> 0.9.0.rc'
   gem 'webrat'
   gem 'annotate', ">=2.5.0"
+  gem 'autotest-growl'
+  #gem 'factory_girl_rails'
 end
 
 group :test do
   gem 'rspec'
+  gem 'ZenTest'
+  gem 'autotest-growl'
   gem 'spork', '~> 0.9.0.rc'
   gem 'webrat'
+  gem 'factory_girl_rails'
 end
